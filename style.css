@@ -1,0 +1,55 @@
+*:focus {
+  outline: none;
+}
+
+html {
+  font: 30px/1.5 sans-serif;
+}
+
+h2 {
+  margin: 0 auto 30px;
+}
+
+.add-city-form {
+  margin: 50px auto;
+  padding: 50px;
+  text-align: center;
+  width: 50%;
+  border-radius: 30px;
+  background-color: #e5e5e5;
+}
+
+.form-field {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.form-field:last-child {
+  justify-content: center;
+}
+
+.form-input {
+  flex-grow: 0.9;
+  border-radius: 15px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.error-message {
+  color: red;
+}
+
+.submit-button {
+  margin-top: 20px;
+  width: 30%;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 30px;
+}
+
+input:hover {
+  box-shadow: 0 0 2pt 4pt rgb(172, 172, 172);
+  transition: box-shadow .2s linear;
+}

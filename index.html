@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Cities</title>
+</head>
+<body>
+  <form name="addCity" class="add-city-form">
+    <h2>Write information about city</h2>
+    <div class="form-field">
+      <label for="city">City:</label>
+      <input class="form-input" type="text" name="city" id="city"
+             placeholder="city name">
+    </div>
+    <div class="form-field">
+      <label for="state">State:</label>
+      <input class="form-input" type="text" name="state" id="state"
+             placeholder="should be abbreviation with 2 letters">
+    </div>
+    <div class="form-field">
+      <label for="latitude">Latitude:</label>
+      <input class="form-input" type="text" name="latitude" id="latitude"
+             placeholder="from -90 to 90">
+    </div>
+    <div class="form-field">
+      <label for="longitude">Longitude:</label>
+      <input class="form-input" type="text" name="longitude" id="longitude"
+             placeholder="from -180 to 180">
+    </div>
+    <div class="errors">
+      <label class="error-message" id="errorMessage"></label>
+    </div>
+    <div class="form-field">
+      <input class="submit-button" type="button" value="Add city" onclick="onSubmit()">
+    </div>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+</html>
